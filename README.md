@@ -1,5 +1,5 @@
 ## Fastapi-Api-Movie
-Esta es una API sencilla para gestionar una lista de películas. Fue construido usando FastAPI
+Esta es una API sencilla para gestionar una lista de películas. Fue construido usando FastAPI, una demo ha sido desplagada en Railway
 
 ## Corriendo la API
 
@@ -32,3 +32,9 @@ La API tiene los siguientes endpoints:
 - DELETE /películas/{id}: Elimina una película concreta.
 
 Todos los enpoints están documentados mediante OpenAPI. Puede consultar la documentación en http://localhost:0.0.0.0:8000/docs, que es el punto final predeterminado para la interfaz de usuario Swagger.
+
+## Demo
+Puedes consultar los endpoints y jugar con ellos, en https://api-movie-deploy-production.up.railway.app/.
+1. Vas a el endpoint **auth**  ingresas con el email: *admin@gmail.com* Despues la contraseña: *admin*
+2. Luego copy and paste del jwt del output y te auntenticas
+3. A probar
